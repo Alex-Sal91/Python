@@ -18,17 +18,20 @@ def customer_proceed():
 
 customer_proceed()
 
-cinema  = { "films" : [
-    {"title": "A Star is Born", "Age": 15, "genre": ["drama", "romance"]},
-    {"title": "Bohemian Rhapsody", "Age": "R", "genre": "drama"},
-    {"title": "Widower", "Age": 18, "genre": ["action", "thriller"]},
-    {"title": "Venom", "Age": 15, "genre": "action"},
-    {"title": "Frozen", "Age": "U", "genre": "children"},
-    {"title": "Halloween", "Age": 18, "genre": ["horror", "thriller"]},
-] }
+films  = [
+    "A Star is Born",
+    "Bohemian Rhapsody",
+    "Widower",
+    "Venom",
+    "Frozen",
+    "Halloween"
+]
 
 def show_films():
-    for film in cinema["films"]:
-        print(film)
+    for film in films:
+            print(film)
 
 show_films()
+
+def customer_choice():
+    choice = raw_input("Please enter the film you would like to watch from the choices above: ")
