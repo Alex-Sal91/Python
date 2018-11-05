@@ -14,4 +14,4 @@ location = raw_input()
 print("What language do you speak?")
 lang = raw_input()
 
-print("My name is {}, I'm from {} and I speak {}".format(name, location, lang))
+print("My name is {}, I'm from {} and I speak {}".format(name, location, lang)) 
