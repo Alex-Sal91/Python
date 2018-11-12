@@ -1,4 +1,5 @@
-def count_vowels(str):
+def count_vowels():
+    str = raw_input("Enter your favourite film: ")
     count = 0
     for char in str:
         if char in "aeiouAEIOU":
@@ -6,6 +7,6 @@ def count_vowels(str):
     return count
 
 
-a = count_vowels("Hello my name is Alex")
 
-print("There are {} vowels in this string".format(a))
+print("There are {} vowels in your movie title!".format(count_vowels()))
+
