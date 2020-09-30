@@ -1,3 +1,4 @@
+#you can print your name age and landuage in below program
 print("How old are you?")
 age  = raw_input()
 print("How tall are you?")
